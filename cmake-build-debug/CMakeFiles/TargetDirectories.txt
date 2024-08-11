@@ -1,0 +1,3 @@
+/Users/prooheckcp/CLionProjects/LearningC/cmake-build-debug/CMakeFiles/LearningC.dir
+/Users/prooheckcp/CLionProjects/LearningC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/prooheckcp/CLionProjects/LearningC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
