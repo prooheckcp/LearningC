@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-extern int x;
-
-int main(void){
-    printf("%d", x);
-
+int main2(void){
+    printf("GoodBye World");
     return 0;
 }
