@@ -4,10 +4,15 @@
 
 #include <stdio.h>
 
-extern int main2(void);
+// One Line Comment
+
+/*
+    Multi
+    Line
+     Comment
+ */
 
 int main(void){
-    printf("Hello World\n");
-    main2();
+    printf("Hi, my name is Vasco!");
     return 0;
 }
