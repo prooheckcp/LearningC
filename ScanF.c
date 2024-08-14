@@ -6,12 +6,12 @@
 
 int main(){
     char str[100];
-    int i;
+    double d;
 
     printf("Enter your value: ");
-    scanf("%s, %d", str, &i);
+    scanf("%s %lf", str, &d);
 
-    printf("%s %i", str, i);
+    printf("%s %d", str, d);
 
     return 0;
 }
