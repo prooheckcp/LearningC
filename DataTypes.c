@@ -13,5 +13,10 @@ int main(void){
     bool myBool = true;
     _Bool x = 0;
 
+    printf("My num: %d\n", wholeNumber);
+
+    float floatX = 3.9399f;
+    printf("%.3f\n", floatX);
+
     return 0;
 }
