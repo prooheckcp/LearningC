@@ -15,7 +15,7 @@ int main(void){
 
     printf("My num: %d\n", wholeNumber);
 
-    float floatX = 3.9399f;
+    float floatX = 3.9399f; // Rounds up the floating point?
     printf("%.3f\n", floatX);
 
     return 0;
