@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/prooheckcp/CLionProjects/LearningC/cmake-build-debu
 
 build cmake_object_order_depends_target_LearningC: phony || CMakeFiles/LearningC.dir
 
-build CMakeFiles/LearningC.dir/ControlFlow.c.o: C_COMPILER__LearningC_unscanned_Debug /Users/prooheckcp/CLionProjects/LearningC/ControlFlow.c || cmake_object_order_depends_target_LearningC
-  DEP_FILE = CMakeFiles/LearningC.dir/ControlFlow.c.o.d
+build CMakeFiles/LearningC.dir/TernatorOperator.c.o: C_COMPILER__LearningC_unscanned_Debug /Users/prooheckcp/CLionProjects/LearningC/TernatorOperator.c || cmake_object_order_depends_target_LearningC
+  DEP_FILE = CMakeFiles/LearningC.dir/TernatorOperator.c.o.d
   FLAGS = -Wall -Wextra -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/LearningC.dir
   OBJECT_FILE_DIR = CMakeFiles/LearningC.dir
@@ -63,7 +63,7 @@ build CMakeFiles/LearningC.dir/ControlFlow.c.o: C_COMPILER__LearningC_unscanned_
 #############################################
 # Link the executable LearningC
 
-build LearningC: C_EXECUTABLE_LINKER__LearningC_Debug CMakeFiles/LearningC.dir/ControlFlow.c.o
+build LearningC: C_EXECUTABLE_LINKER__LearningC_Debug CMakeFiles/LearningC.dir/TernatorOperator.c.o
   FLAGS = -Wall -Wextra -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/LearningC.dir
   POST_BUILD = :
