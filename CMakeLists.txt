@@ -5,5 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(
         LearningC
-        SizeOfDataTypes.c
         OperatorOrder.c)
