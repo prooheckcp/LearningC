@@ -12,22 +12,16 @@ int main(void){
 
     for (int p = 5; p < MAX_PRIME_NUMBER; p += 2){
         _Bool isDividable = 0;
-        for (int i = 0; i <= currentIndex; ++i){
-            if (p % primeNumbers[i] == 0){
-                isDividable = 1;
-                break;
-            }
-        }
+        for (int i = 0; p/primeNumbers[i] >= primeNumbers[i] && !isDividable; ++i)
+            isDividable = p % primeNumbers[i] == 0;
 
-        if (!isDividable){
-            primeNumbers[currentIndex] = p;
-            currentIndex++;
-        }
+        if (!isDividable)
+            primeNumbers[currentIndex++] = p;
     }
 
-    for (int i = 0; i < 25; i++){
+    for (int i = 0; i < 25; i++)
         printf("My prime number is: %d\n", primeNumbers[i]);
-    }
+
 
     return 0;
 }
