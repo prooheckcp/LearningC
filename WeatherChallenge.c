@@ -2,14 +2,14 @@
 // Created by Vasco Miguel Veenstra Soares on 21/08/2024.
 //
 
-#define true 1
-#define false 0
-#define bool _Bool
+#include <stdio.h>
 
 #define MONTH_COUNT 12
 #define YEAR_COUNT 5
+#define INITIAL_YEAR 2020
 
 int main(void){
+    char* monthsNames[MONTH_COUNT] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
     float rainfallData[YEAR_COUNT][MONTH_COUNT] = {
             //2020
             {78.2f, 62.1f, 91.3f, 102.4f, 85.6f, 150.2f, 220.5f, 200.3f, 180.7f, 140.2f, 110.3f, 95.4f},
@@ -22,13 +22,32 @@ int main(void){
             //2024
             {77.5f,	68.9f,	90.8f,	103.5f,	88.1f,	152.7f,	240.2f,	220.1f,	185.9f,	138.4f, 118.7f,	94.6f}
     };
-    float monthlyTotal[MONTH_COUNT];
+    float monthlyTotal[MONTH_COUNT] = {0}; //The total rain for each month
+    float yearTotal[YEAR_COUNT] = {0}; //The total rain for each year
+    float allYearsTotal = 0;
 
     for(int year = 0; year < YEAR_COUNT; year++){
-        float yearTotalRain = 0;
         for(int month = 0; month < MONTH_COUNT; month++){
-            yearTotalRain += rainfallData[year][month];
             monthlyTotal[month] += rainfallData[year][month];
+            yearTotal[year] += rainfallData[year][month];
+            allYearsTotal += rainfallData[year][month];
         }
     }
+
+    // Print yearly averages
+    printf("YEAR\tRAINFALL (inches)\n");
+    for (int year = 0; year < YEAR_COUNT; year++)
+        printf("%d\t%.1f\n", INITIAL_YEAR + year, yearTotal[year]/MONTH_COUNT);
+
+    printf("\nThe yearly average is %.1f inches\n", (allYearsTotal/YEAR_COUNT)/MONTH_COUNT);
+
+    // Months averages
+    printf("\nMONTHLY AVERAGES:\n\n");
+    for (int month = 0; month < MONTH_COUNT; month++)
+        printf("%s\t\t",monthsNames[month]);
+    printf("\n");
+    for (int month = 0; month < MONTH_COUNT; month++){
+        printf("%.1f\t", monthlyTotal[month]/MONTH_COUNT);
+    }
+
 }

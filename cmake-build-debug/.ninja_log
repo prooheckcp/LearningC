@@ -1,7 +1,7 @@
 # ninja log v5
+1	26	1723904891681723669	CMakeFiles/LearningC.dir/MinutesConverter.c.o	3bef8397c5a2a9b1
 0	118	1724277516400776454	CMakeFiles/LearningC.dir/ChallengePrimeNumbers.c.o	e98551b33a093cdb
 0	141	1724278888818354633	CMakeFiles/LearningC.dir/MultidimensionalArrays.c.o	fbbcef5dd281fcc4
-1	26	1723904891681723669	CMakeFiles/LearningC.dir/MinutesConverter.c.o	3bef8397c5a2a9b1
 0	19	1724012743758122643	CMakeFiles/LearningC.dir/TernatorOperator.c.o	42eca0161a86be06
 0	42	1724191227583384432	CMakeFiles/LearningC.dir/Arrays.c.o	9fcc02e97a08381c
 0	30	1723902638274476430	CMakeFiles/LearningC.dir/Operators.c.o	44a83f88592ac28e
@@ -16,7 +16,7 @@
 0	155	1723586269138389706	CMakeFiles/LearningC.dir/ScanF.c.o	4e8b3d4a399b365f
 0	176	1723675127806698618	CMakeFiles/LearningC.dir/DataTypes.c.o	2a141dd90afe0a40
 1	172	1723908315355784186	CMakeFiles/LearningC.dir/BitWise.c.o	34d283ef840d1435
-0	55	1724279654255609662	build.ninja	7e933007c3349dcd
+0	55	1724363321120708673	build.ninja	7e933007c3349dcd
 0	178	1723672122413119227	CMakeFiles/LearningC.dir/Enums.c.o	f52c94bec992e202
 0	170	1724108173214849647	CMakeFiles/LearningC.dir/Sandbox.c.o	7439e16e06bcec9a
 0	30	1723763012652225552	CMakeFiles/LearningC.dir/CommandLineArguments.c.o	1ef72975d33209f1
@@ -25,3 +25,19 @@
 1	33	1723372415020317879	CMakeFiles/LearningC.dir/main.c.o	9fa58a6ca204bbf4
 0	135	1723673350113637476	CMakeFiles/LearningC.dir/Challenge.c.o	aa4637e92d4312b2
 0	168	1723994348301554351	CMakeFiles/LearningC.dir/OperatorOrder.c.o	cc7f7cd8937576e3
+0	182	1724365158294019483	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+182	253	1724365158366285642	LearningC	cae249a592ef1897
+0	27	1724365182818576134	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+27	55	1724365182847200562	LearningC	cae249a592ef1897
+1	150	1724365362780804228	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+150	187	1724365362819378817	LearningC	cae249a592ef1897
+0	32	1724365374080382391	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+32	61	1724365374110673741	LearningC	cae249a592ef1897
+0	152	1724365416362177133	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+152	188	1724365416399157340	LearningC	cae249a592ef1897
+1	28	1724365455178690109	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+28	57	1724365455208133978	LearningC	cae249a592ef1897
+0	143	1724365626573607059	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+143	176	1724365626608843845	LearningC	cae249a592ef1897
+0	39	1724365656968637687	CMakeFiles/LearningC.dir/WeatherChallenge.c.o	8a6c276cb41e3bad
+39	68	1724365656998907454	LearningC	cae249a592ef1897
