@@ -47,7 +47,7 @@ int main(void){
         printf("%s\t\t",monthsNames[month]);
     printf("\n");
     for (int month = 0; month < MONTH_COUNT; month++){
-        printf("%.1f\t", monthlyTotal[month]/MONTH_COUNT);
+        printf("%.1f\t", monthlyTotal[month]/YEAR_COUNT);
     }
 
 }
